@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Mono", Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/***
+##########################################
+##########################################
+  HEADER SECTION
+##########################################
+##########################################
+***/
+
+.bkg-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3% 0;
+  padding-top: 16rem;
+  padding-bottom: 3rem;
+}
+
+form {
+  margin: 0 auto;
+}
+
+#search-box {
+  font-size: 1.2rem;
+  border-radius: 0px;
+  padding: 1.5rem 2.5rem;
+  height: 50px;
+  width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+#search-box:focus {
+  outline: none;
+  box-shadow: 0 0 10px 1px white;
+}
+
+.credits {
+  padding-top: 15rem;
+  padding-left: 1.5rem;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+/***
+##########################################
+##########################################
+  MAIN SECTION
+##########################################
+##########################################
+***/
+
+.main-content {
+  width: 93%;
+  columns: 3 400px;
+  column-gap: 0px;
+  margin: 0 auto;
+  padding-top: 1em;
+  margin-bottom: 5em;
+}
+
+img {
+  display: block;
+  width: 93%;
+  margin: 0 auto;
+  margin-bottom: 1.6em;
+}
+
+.search-results {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-results p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
